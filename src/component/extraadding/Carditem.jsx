@@ -8,7 +8,7 @@ const Carditem = () => {
         <div className="card">
           <h3>- Basic -</h3>
           <span className='bar'></span>
-          <p className='btc'>$ 100</p>
+          <p className='btc'>$-10</p>
           <p>- 3 days -</p>
           <p>- 3 pages -</p>
           <p>- Featured -</p>
@@ -19,7 +19,7 @@ const Carditem = () => {
         <div className="card">
           <h3>- Premium -</h3>
           <span className='bar'></span>
-          <p className='btc'>$ 200</p>
+          <p className='btc'>$-20</p>
           <p>- 2 days -</p>
           <p>- 5 pages -</p>
           <p>- Featured -</p>
@@ -30,7 +30,7 @@ const Carditem = () => {
         <div className="card">
           <h3>- Business -</h3>
           <span className='bar'></span>
-          <p className="btc">$ 300</p>
+          <p className="btc">$-30</p>
           <p>- 2 days -</p>
           <p>- 6 pages -</p>
           <p>- Featured -</p>

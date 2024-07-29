@@ -10,8 +10,8 @@ function Hero() {
           <img className="intro-img" src={portfolio} alt="Intro" />
         </div>
         <div className="content">
-          <p>Hi I'm A Developer</p>
-          <h1>React Developer</h1>
+          <p>Hi I'm A Suresh</p>
+          <h1>React-js Developer</h1>
 
           <div>
             <Link to="/Project" className="btn">

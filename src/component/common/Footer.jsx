@@ -13,7 +13,7 @@ function Footer() {
            <div className="phone">
            <h4>
            <FaPhone  size={20} style={{color :'#fff',marginRight:'2rem'}}/>
-            +91 987676567
+            +91 7538815402
            </h4>
            </div>
            <div className="email">
@@ -24,8 +24,8 @@ function Footer() {
            </div>
         </div>
         <div className="right">
-           <h3>About this company</h3>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis in sint facere quidem aperiam eligendi minima odio itaque veritatis enim!</p>
+           <h3>About </h3>
+           <p>Hi, This is <em><strong>Suresh</strong></em> . I am a webdeveloper with (Html, Css, JavaScript and React-Js)  </p>
            <div className="social">
            <FaFacebook  size={30} style={{color :'#fff',marginRight:'1rem'}}/>
            <FaLinkedin  size={30} style={{color :'#fff',marginRight:'1rem'}}/>
