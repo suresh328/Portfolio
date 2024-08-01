@@ -627,6 +627,21 @@ form input, form textarea{
         line-height: 1.9rem;
         
     }
+    .about-me-left{
+        padding: 15px;
+       
+    }
+    .about-me-right{
+        padding: 15px;
+        
+    }
+    .abt-container h2{
+        color: #eed324;
+        font-size: 16px;
+    }
+    .abt-container h2 .em{
+        color: #555452;
+    }
 }
 
 /* <============= abt-container ==================> */
