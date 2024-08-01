@@ -627,13 +627,11 @@ form input, form textarea{
         line-height: 1.9rem;
         
     }
-    .about-me-left{
-        padding: 15px;
-       
+    .abt-container .about-me-left{
+        width: 90%;
     }
-    .about-me-right{
-        padding: 15px;
-        
+    .abt-container .about-me-right{
+        width: 90%;
     }
     .abt-container h2{
         color: #eed324;
@@ -641,6 +639,14 @@ form input, form textarea{
     }
     .abt-container h2 .em{
         color: #555452;
+    }
+    .about-me-section{
+        
+        width: 90%;
+        padding: 40px 20px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        
+        margin-bottom: 30px;
     }
 }
 
