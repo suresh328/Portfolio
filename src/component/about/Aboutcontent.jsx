@@ -6,10 +6,15 @@ import react2 from "../assets/react2.png"
 
 function Aboutcontent() {
   return (
+    <>
+    <div className="about-heading">
+       <h1>About Me.</h1>
+    </div>
     <div className='about'>
+      
       <div className="about-left">
          <h1>Who Am I?</h1>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, vero? tyhb iuo tyhbs</p>
+         <p>I am always keen on learning new technologies and improving my craft. Thank you for taking the time to learn more about me!</p>
         <Link to="/contact" >
         <button className="btn">
             contact
@@ -27,6 +32,7 @@ function Aboutcontent() {
             </div>
       </div>
     </div>
+    </>
   )
 }
 

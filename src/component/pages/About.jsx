@@ -1,19 +1,22 @@
-import React from 'react'
-import Header from '../common/Header'
-import Footer from '../common/Footer.jsx'
-import HeroImg2 from '../home/HeroImg2.jsx'
-import Aboutcontent from '../extraadding/Aboutcontent.jsx'
+import React from "react";
+import Header from "../common/Header";
+import Footer from "../common/Footer.jsx";
+import HeroImg2 from "../home/HeroImg2.jsx";
+import Aboutcontent from "../about/Aboutcontent.jsx";
+import Internshipcon from "../about/Internshipcon.jsx";
+import ProjectsDone from "../about/ProjectsDone.jsx";
 
-const About =() =>{
+const About = () => {
   return (
- <div>
-      <Header/>
+    <div>
+      <Header />
       <HeroImg2 heading="About." text="Im a friendly Front-End Developer" />
-      <Aboutcontent/>
-      <Footer/>
+      <Aboutcontent />
+      <Internshipcon />
+      <ProjectsDone />
+      <Footer />
     </div>
-    
-  )
-}
+  );
+};
 
 export default About;

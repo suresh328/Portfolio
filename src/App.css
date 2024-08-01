@@ -424,7 +424,12 @@ a{
 /* <================== Projectwork =======================> */
 /* =============================================================================================*/
 /* <================== Aboutcontant ==========================> */
-
+.about-heading h1{
+    text-align: center;
+    text-transform: capitalize;
+    padding: 20px;
+    color: #eed324;
+}
 .about{
     width: 100%;
     margin: 3rem 0;
@@ -510,5 +515,68 @@ form input, form textarea{
     color: #f4f4f4;
 }
 /* <===================contact ======================> */
+.about-section {
+    padding: 50px;
+    margin: 50px auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.about-section h2 {
+    text-align: start;
+    margin-bottom: 1.5rem;
+    color: #ffce1b;
+}
+.about-section p {
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 18px;
+}
+
+/* <-------------------internshipcon-----------------> */
+/* <-------------------ProjectsDone-----------------> */
+.projects-section {
+    padding: 50px;
+    margin: 50px auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.projects-section h2 {
+    text-align: start;
+    color: #eed324;
+}
+.projects-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+.projects-section li {
+    margin: 20px 0;
+    font-size: 18px;
+    margin-left: .6rem;
+}
+.projects-section a {
+    color: #24eedd;
+    text-decoration: none;
+}
+
+.projects-section .list-app{
+    list-style: disc;
+    color: #24eedd;
+}
+
+.projects-section p {
+    margin: 5px 0 0 20px;
+    font-size: 16px;
+    color: #666;
+}
+
+/* <-------------------ProjectsDone-----------------> */
+
+
+
+
+
+
+
+/* <-------------------internshipcon-----------------> */
 /* <=================== finish ======================> */
 
