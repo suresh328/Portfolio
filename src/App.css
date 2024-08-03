@@ -31,7 +31,9 @@ body{
     color: #fff;
     transition: 0.3s;
 }
-
+p{
+    color: white;
+}
 
 
 
@@ -151,6 +153,11 @@ body{
     width: 100%;
 
 }
+.hero .content h1 span{
+    color: transparent;
+    -webkit-text-stroke: .4px white;
+    
+}
 .hero .content{
     position: absolute;
     transform: translate(-50% ,-50%);
@@ -184,67 +191,21 @@ a{
 /* <============ hero ============> */
 /* =========================================================================================================================== */
 /* <============ Footer ============> */
-.footer h1,p,h3,h4{
+.footer h3{
     color: #fff;
+    padding-bottom: 1.6rem;
 }
 
 .footer{
     width: 100%;
-    padding: 6rem 0;
+    padding: 2rem 0;
     background: rgba(19,19,19,0.8);
+    text-align: center;
 }
 
 .footer-container{
     max-width: 1140px;
     margin: auto;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-gap: 40px;
-}
-.footer .left{
-    display: flex;
-    height: 100%;
-    max-width: 100%;
-    flex-direction: column;
-    padding: 1rem;
-}
-
-.location{
-    display: flex;
-    margin-bottom: .8rem;
-    
-}
-
-.footer .left h4{
-    padding-bottom: 1rem;
-}
-.location p{
-    line-height: 25px;
-   
-}
-
-.footer .right{
-
-    height: 100%;
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-}
-.footer .right h3{
-    color: #eed324;
-    font-size: 2rem;
-}
-.footer .social{
-    margin-top:1rem ;
-
-}
-.right h3{
-    font-size: 1.2rem; 
-    padding-bottom:.6rem ;
-}
-.right p{
-    font-size: 1.2rem;
     
 }
 
@@ -447,6 +408,7 @@ a{
 }
 .about-left p{
     margin: 1.2rem 0;
+    color:white;
 }
 .about-left h1{
     color: #ffce1b;
@@ -534,11 +496,14 @@ form input, form textarea{
 
 /* <-------------------internshipcon-----------------> */
 /* <-------------------ProjectsDone-----------------> */
+
 .projects-section {
     padding: 50px;
     margin: 50px auto;
     max-width: 800px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    
+    background: #0a1721;
 }
 .projects-section h2 {
     text-align: start;

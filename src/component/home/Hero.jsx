@@ -11,7 +11,7 @@ function Hero() {
         </div>
         <div className="content">
           <p>Hi I'm A Suresh</p>
-          <h1>React-js Developer</h1>
+          <h1><span >React-js</span> Developer</h1>
 
           <div>
             <Link to="/Project" className="btn">

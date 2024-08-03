@@ -14,7 +14,7 @@ function Aboutcontent() {
       
       <div className="about-left">
          <h1>Who Am I?</h1>
-         <p>I am always keen on learning new technologies and improving my craft. Thank you for taking the time to learn more about me!</p>
+         <p >I am always keen on learning new technologies and improving my craft. Thank you for taking the time to learn more about me!</p>
         <Link to="/contact" >
         <button className="btn">
             contact

@@ -1,0 +1,48 @@
+.counterup{
+    width: 90%;
+    margin: 40px auto;
+    background: #0a1721;
+    border-radius: 20px;
+    padding: 30px 0;
+    border-bottom: 2px dashed gray;
+    border-top: 2px dashed gray;
+}
+
+.count-container{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    
+}
+.count-container .list{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+}
+.count-container .list .num{
+    font-size: 50px;
+    font-weight: 800;
+    color: transparent;
+    -webkit-text-stroke: 1px #6c6c94;
+}
+
+@media screen and (max-width : 740px){
+    .count-container{
+        width: 60%;
+        margin: auto;
+        flex-direction: column;
+        
+        
+    }
+    .count-container .list .num{
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .count-container .list{
+       padding-bottom: 20px;
+       padding-top: 20px;
+    }
+}

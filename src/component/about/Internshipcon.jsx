@@ -3,7 +3,7 @@ import React from 'react'
 const Internshipcon = () => {
   return (
     <>
-     <div class="about-section">
+     <div className="about-section">
         <div className="content">
             <h2>Internship:-</h2>
             <p><li className='intern'> Passionate web developer with hands-on experience in creating dynamic and user-friendly websites. During my recent internship at Amvionslabs Pvt Ltd, I honed my skills in various aspects of web development over a period of 4 months.</li></p>
