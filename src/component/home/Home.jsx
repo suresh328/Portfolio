@@ -17,7 +17,6 @@ function Home() {
       <Internshipcon />
       <Projectwork />
       <CounterUp/>
-      
       <Formcontant />
       <Footer />
     </div>
